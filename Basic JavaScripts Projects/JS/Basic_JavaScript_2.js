@@ -1,11 +1,5 @@
-Function myFirstFunction() {
-    var str = "This is green text";
-    var result = str.fontcolor("green");
-    document.getElementById("Green_Text").innerHTML = result;
-}
-
-function myFunction () {
-    var sentence = "I am learning";
-    sentence += " a lot from this book!";
-    document.getElementById("concatenate").innerHTML = sentence;
+function Add() {
+    var addition = "3+3";
+    var addition_1 = ("6!");
+    document.getElementById("Sum_1").innerHTML = addition_1;
 }
