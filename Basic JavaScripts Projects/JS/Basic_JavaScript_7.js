@@ -1,14 +1,25 @@
-function Vehicle(Make, Model, Year, Color) {
-    this.Vehicle_Make = Make;
-    this.Vehicle_Model = Model;
-    this.Vehicle_Year = Year;
-    this.Vehicle_Color= Color;
+
+function myFunction () {
+    if (new Date().getHours() < 10) {
+    document.getElementById("Adding").innerHTML = "It is early yet";
+    }
 }
-var Jack = new Vehicle("Dodge", "Viper", 2020, "Red");
-var Emily = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
-var Erik = new Vehicle("Ford", "Pinto", 1971, "Mustard");
-function myFunction() {
-    document.getElementById("Keywords_and_Contructors").innerHTML =
-    "Erik drives a " + Erik.Vehicle_Color + "-colored " + Erik.Vehicle_Model +
-    " manufactured in " + Erik.Vehicle_Year;
+
+function myFunction_1() {
+ var x = ((Math.random() * 10) + 1);
+ if (x > 5 ) {
+     alert("large");
+ } if(x < 5) {
+     alert("small");
+ }
+}
+
+function myFunction_2() {
+    var x = document.getElementById("Y").value;
+    document.getElementById("number1").innerHTML = x;
+    if (x > 5) {
+        alert("wow");
+    } else {
+        alert("nope");
+    }
 }
